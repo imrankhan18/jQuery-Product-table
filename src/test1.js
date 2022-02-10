@@ -1,10 +1,13 @@
-$("#edit").hide();
+$("#modify").hide();
 $("#1").hide();
 $("#2").hide();
 
 var arr = [];
-$("#add").click(skuTable);
-function skuTable() {
+console.log("hello");
+$("#add").click(table);
+function table() {
+    console.log("in sku");
+
   var a = $("#psku").val();
   var b = $("#pname").val();
   var c = $("#pprice").val();
